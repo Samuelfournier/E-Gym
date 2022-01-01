@@ -1,0 +1,181 @@
+.body-container {
+    min-height: 85vh;
+    /* display: flex; */
+    vertical-align: center;
+}
+
+.trainingProgram-title-container {
+    /* padding: 0;
+    margin: auto; */
+    text-align: center;
+}
+
+.trainingProgram-title-container h1 {
+    font-size: 45px;
+    padding: 2% 0;
+}
+
+.content-container {
+    padding: 0;
+}
+
+#trainingProgramForm-submit-button {
+    width: 100%;
+    margin: auto;
+}
+
+@media screen and (min-width: 600px) {
+    #trainingProgramForm-submit-button {
+        width: 50%;
+        margin: auto;
+    }
+  }
+
+.session-container {
+    text-align: center;
+    padding: 0;
+}
+
+.trainingProgram-navigation-container {
+    text-align: center;
+    padding: 0;
+}
+
+.navigation-sticky-container {
+    top: 25px;
+}
+
+.list-session-container {
+    padding: 0;
+}
+
+.list-session {
+    border-radius: 0;
+}
+
+.exercices-container {
+    margin: 0 2%;
+    min-height: 65vh;
+}
+
+.three-characters-input {
+    width: 55px;
+    text-align: center;
+    margin: auto;
+}
+
+.time-col {
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.session-row {
+    padding: 15px 0;
+}
+
+.exercice-preview-title {
+    padding: 12px 0;
+}
+
+.exercice-preview-body-container {
+    text-align: center;
+    height: 100%;
+}
+
+.exercice-container {
+    border-top: 2px dashed grey;
+    padding: 25px 0;
+}
+
+.exercice-buttons-container {
+    width: 150px;
+}
+
+.arrowUpIcon, .arrowDownIcon {
+    margin: 1.5px 0;
+}
+
+.arrowUpIcon, .arrowDownIcon, .timesIcon {
+    width: 18px;
+    height: auto;
+    color: rgb(145, 145, 145);
+}
+
+.arrowUpIcon:hover, .arrowDownIcon:hover, .timesIcon:hover {
+    color: rgb(64, 64, 64);
+}
+
+.exercice-content-row {
+    padding: 18px 0;
+}
+
+.exercice-media-col {
+    padding-right: 150px;
+}
+
+.exercice-time {
+    width: 65px;
+    margin: auto;
+}
+
+.trainingProgram-button {
+    width: 350px;
+}
+
+.description-semaine {
+    padding-top: 15px;
+    padding-bottom: 8px;
+    font-size: 25px;
+}
+
+.training-title {
+    padding: 25px;
+    margin: 0;
+}
+
+.ifNoTrainingText {
+    margin: auto;
+}
+
+.list-equipments-exercice {
+    text-align: left;
+}
+
+.list-equipments-exercice-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.accordion-exercice {
+    margin: 12.5px 0;
+}
+
+.session-equipments-list-button {
+    margin-top: 6px;
+}
+
+.current-session-card-equipments-list {
+    margin: 25px;
+}
+
+.equipments-list-item {
+    font-size: 20px;
+}
+
+.ifNoEquipments {
+    font-size: 20px;
+    margin: auto;
+    padding: 12.5px 0;
+}
+
+.trainingProgram-spinner {
+    color: #212529;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -75px;
+    margin-left: -75px;
+    width: 150px;
+    height: 150px;
+    /* transform: translate(-50%, -50%); */
+}

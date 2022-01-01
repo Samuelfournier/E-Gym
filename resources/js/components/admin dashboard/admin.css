@@ -1,0 +1,13 @@
+.left-menu-admin {
+    background-color: lightgray;
+}
+
+.left-menu-admin:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    background-color: darkgray;
+}
+
+.half-width {
+    /*width: 50%;*/
+}

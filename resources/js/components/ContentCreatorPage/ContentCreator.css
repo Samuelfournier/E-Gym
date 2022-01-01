@@ -1,0 +1,12 @@
+.min-height-text-card-creator {
+    min-height: 40px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.pointer:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 20px rgba(33, 33, 33, 0.2);
+}

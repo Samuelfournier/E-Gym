@@ -1,0 +1,108 @@
+.margin-left {
+    margin-left: 15px;
+}
+
+.margin-left-double {
+    margin-left: 30px;
+}
+
+.min-height-activity {
+    min-height: 90px;
+}
+
+/* Nombre de caractere max : 50 */
+.min-height-title {
+    min-height: 45px;
+}
+
+/* Nombre de caractere max : 208, probably arrondir à 200 */
+.min-height-text-card {
+    min-height: 120px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.pointer:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 20px rgba(33, 33, 33, 0.2);
+}
+
+.author-hover:hover > .child {
+    transform: scale(1.03);
+    text-decoration: underline;
+}
+
+.tag {
+    display: flex;
+    align-items: center;
+    width: auto;
+    margin: 7px 0;
+    margin-right: 10px;
+    padding: 0 10px;
+    padding-right: 5px;
+    border: 1px solid #0275d8;
+    border-radius: 5px;
+    background-color: #0275d8;
+    white-space: nowrap;
+    color: white;
+    cursor: pointer;
+}
+
+.tag button {
+    display: flex;
+    padding: 6px;
+    border: none;
+    background-color: unset;
+    color: white;
+}
+
+.width-input-tags {
+    width: 70%;
+}
+
+.v-center {
+    display: flex;
+    align-items: center;
+}
+
+
+.style-search-bar {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.margin-0-auto {
+    margin: 0 auto;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    .style-search-bar {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .style-search-bar {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .style-search-bar {
+        width: 100%;
+    }
+}
+
+
+hr {
+    display: block;
+    color: black;
+}
+
+.card-img-top {
+    object-fit: cover;
+}

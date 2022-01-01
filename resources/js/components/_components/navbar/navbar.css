@@ -1,0 +1,97 @@
+ @import url('https://fonts.googleapis.com/css2?family=Padauk&display=swap');
+
+ /* #root > * {
+    margin: 0;
+    padding: 0;
+} */
+
+
+ .site-navbar .dropdown-toggle::after {
+    content: none;
+}
+
+.brand-name, .brand-logo {
+    text-align: center;
+    margin: auto;
+}
+
+.brand-name {
+    padding: 0 12px;
+}  
+
+/* SECTION DU PROFILE DANS LE NAVBAR */
+
+ .profile-container {
+    display: flex;
+    margin: 0 auto;
+}
+
+.profile-name-container, .profile-image-container {
+    padding: 5%;
+    margin: auto 0;
+}
+
+.profile-name {
+    margin: auto 0;
+}
+
+.profile-image {
+    margin: auto;
+    max-width: 32px;
+    max-height: 32px;
+}
+
+.container-dropdown-item {
+    padding: 2% 0;
+    display: flex;
+}
+
+.item-link {
+    text-decoration: none;
+}
+
+.container-item-icon {
+    flex: 30%;
+    margin: auto;
+    text-align: center;
+}
+
+.container-item-icon .item-icon {
+    margin: auto;
+}
+
+.container-item-text {
+    flex: 70%;
+    text-align: left;
+    padding: 0;
+}
+
+.container-item-text .item-text {
+    margin: auto 0;
+}
+
+.profile-dropdown .dropdown-menu {
+    width: 175px;
+}
+
+/***************************************/
+
+ @media (min-width: 576px) and (max-width: 991px) { 
+    .profile-image-container {
+        display: none;
+    }
+
+    .profile-name-container, .profile-container {
+        padding: 0;
+    }
+
+    .brand-logo, .brand-name {
+        margin: 0;
+    }
+ }
+
+@media (min-width: 992px) { 
+    .profile-image-container {
+        display: block;
+    }
+ }

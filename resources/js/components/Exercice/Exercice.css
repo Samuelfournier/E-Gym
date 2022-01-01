@@ -1,0 +1,17 @@
+.main_container_exercice{
+    background: radial-gradient(closest-side, #6d6d6d, #2e2e2e);
+    min-height: 85vh;
+
+}
+.exercice-form-label{
+    color:rgb(255, 255, 255);
+}
+@media screen and (min-width:568px){
+    .main_container_exercice{
+    background: radial-gradient(closest-side, #a2a9aa, #7ccff5);
+    min-height: 85vh;
+    }
+    .exercice-form-label{
+        color:black;
+    }
+}

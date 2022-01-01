@@ -1,0 +1,46 @@
+
+.main_container_register{
+    background: radial-gradient(closest-side, #6d6d6d, #2e2e2e);
+    min-height: 85vh;
+    text-align: center;
+    justify-content:center;
+}
+.main_container_sRegister{
+margin:0 auto;
+    min-height: 85vh;
+    justify-content:center;
+}
+.form-wrapper{
+    margin:auto;
+    text-align:left;
+}
+.rgt-h1{
+    font-size: 45px;
+}
+.withColor,
+.rgt-h1,
+.rgt-form-label,
+.rgt-hr,
+.rgt-a{
+    color:#fff;
+}
+.rgt-ul{
+    margin-top: 10px;
+    padding: 0px;
+    list-style-type: none;
+}
+@media screen and (min-width:568px){
+    .main_container_register{
+        min-height: 85vh;
+        background: radial-gradient(closest-side, #6d6d6d, #2e2e2e );
+        background-image: url('./virtual+training.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        text-align: center;
+        font-size:100%;
+    }
+    .main_container_sRegister{
+        min-height: 85vh;
+        }
+}

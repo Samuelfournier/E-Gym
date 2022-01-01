@@ -1,0 +1,20 @@
+.footer-text {
+    color: #BDC8BF;
+    margin: auto 0;
+}
+
+.copyright-link {
+    text-decoration: none;
+    color: white;
+}
+
+.copyright-link:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.footer {
+    text-align: center;
+    margin: auto 0;
+    background-color: #212529;
+}

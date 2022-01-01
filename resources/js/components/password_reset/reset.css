@@ -1,0 +1,38 @@
+.main_container_reset{
+    background: radial-gradient(closest-side, #6d6d6d, #2e2e2e);
+    min-height: 85vh;
+    text-align: center;
+    justify-content:center;
+}
+.form-wrapper{
+    margin:auto;
+    text-align:left;
+}
+.rst-h1{
+    font-size: 45px;
+}
+.withColor,
+.rst-h1,
+.rst-form-label,
+.rst-hr{
+    color:#fff;
+}
+
+.rst-ul{
+    margin-top: 10px;
+    padding: 0px;
+    list-style-type: none;
+}
+@media screen and (min-width:568px){
+    .main_container_reset{
+        min-height: 85vh;
+        background: radial-gradient(closest-side, #6d6d6d, #2e2e2e );
+        background-image: url('./morning_yoga.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        text-align: center;
+        font-size:100%;
+    }
+}
+
